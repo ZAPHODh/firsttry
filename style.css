@@ -74,27 +74,3 @@ h1 {
     background-color: #0a2c47;
     color: azure;
 }
-
-#container {
-    width: 300px;
-    background-color: #3a6f9b;
-    display: inline-block;
-    margin-top: 50px;
-    border-radius: 15px;
-
-}
-
-.placa {
-    display: inline-block;
-    width: 100px;
-    height: 80px;
-    margin-bottom: 20px;
-    border-left: 3px solid white;
-    border-radius: 5px;
-    margin-left: 15px;
-}
-.placa:hover {
-    border-left: 3px solid #0a2c47;
-    ;
-
-}
