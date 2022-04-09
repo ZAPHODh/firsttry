@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    color: white;
+}
+
+#jogo {
+    background-color: #3a6f9b;
+    height: 100px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    padding: 28px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3a6f9b;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 70px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\2694";
+    font-size: 70px;
+    line-height: 100px;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+#reset {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #3a6f9b;
+    color: azure;
+    border: none;
+}
+
+#reset:hover {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    border: none;
+    background-color: #0a2c47;
+    color: azure;
+}
+
+#container {
+    width: 300px;
+    background-color: #3a6f9b;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 15px;
+
+}
+
+.placa {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-left: 3px solid white;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.placa:hover {
+    border-left: 3px solid #0a2c47;
+    ;
+
+}
