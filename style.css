@@ -21,38 +21,7 @@ h1 {
     background-color: #3a6f9b;
     border-radius: 15px;
     display: inline-block;
-}
-
-.o {
     position: relative;
-}
-
-.o:after {
-    position: absolute;
-    content: "\1F6E1";
-    font-size: 70px;
-    line-height: 100px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
-}
-
-.x {
-    position: relative;
-}
-
-.x:after {
-    position: absolute;
-    content: "\2694";
-    font-size: 70px;
-    line-height: 100px;
-    top: 5px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
 }
 
 #reset {
@@ -73,4 +42,16 @@ h1 {
     border: none;
     background-color: #0a2c47;
     color: azure;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_image {
+    max-width: 100%;
 }
