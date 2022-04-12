@@ -1,0 +1,117 @@
+p {
+    font-size: 20px;
+}
+
+
+body {
+    text-align: center;
+    color: white;
+}
+
+#jogo {
+    background-color: #3a6f9b;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    padding: 28px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3a6f9b;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.reset {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #3a6f9b;
+    color: azure;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.reset:hover {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    border: none;
+    background-color: #0a2c47;
+    color: azure;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.card_image {
+    max-width: 80%;
+}
+
+#caixa_jogador {
+    width: 300px;
+    max-height: 300px;
+    background-color: #3a6f9b;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.caixa_jogador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.areset {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #ffffff;
+    color: #3a6f9b;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.areset:hover {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    border: none;
+    background-color: #0a2c47;
+    color: azure;
+}
+
+.nome {
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+}
+
+::placeholder {
+    text-align: center;
+}
