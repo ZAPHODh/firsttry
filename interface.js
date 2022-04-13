@@ -26,12 +26,12 @@ function updateSquare(position) {
     let turn2 = document.getElementById("j2");
 
     if (symbol == 'o' && jogador1 != '' && jogador2 != ``) {
-        square.innerHTML = `<div class="card ${symbol}"><img class="card_image" src="images/demacia.png"></div>`
+        square.innerHTML = `<div class="card ${symbol}"><img class="card_image" src="demacia.png"></div>`
         turn1.style = "background-color:#ac843b"
         turn2.style = "background-color:goldenrod"
     }
     else if (symbol == 'x' && jogador1 != '' && jogador2 != ``) {
-        square.innerHTML = `<div class="card ${symbol}"> <img class="card_image" src="images/noxus.png"></div>`
+        square.innerHTML = `<div class="card ${symbol}"> <img class="card_image" src="noxus.png"></div>`
         turn2.style = "background-color:#ac843b"
         turn1.style = "background-color:goldenrod"
     }
